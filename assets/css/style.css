@@ -66,9 +66,9 @@ body{
 	margin: 0 auto;
 	clear: both;
 }
-.Psychic{
+/* .Psychic{
 	background-color: #000;
-}
+} */
 .Psychic > img{
 	display: block;
 	margin-left: auto;
