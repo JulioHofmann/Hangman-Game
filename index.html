@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>The Psychic Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="../Hangman-Game/assets/css/reset.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../Hangman-Game/assets/css/bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="../Hangman-Game/assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+    <div class="row">
+        <div class="col-md-12 header">
+            <header class="main-header">
+                <h1>The Hangman-Game</h1>
+                <!-- <h1>Guess what letter I am thinking of</h1> -->
+            </header>
+        </div>
+    </div>  
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="Psychic">
+                <!-- <img src="../Word-Guess-Game/assets/images/AreyouPsychic.jpg" alt="Psychic" id="Psychic"> -->
+            </div>   
+            <!-- <div id="word"></div>  -->
+        </div>
+
+        <div class="col-md-6 ">
+            <header class="game-inst">
+                <h3>Try to guess the word PC has picked. Type any letter from A - Z</h3>
+                <h3>Press RESET button to get started</3>
+            </header>
+            <br>
+        </div>    
+      
+        <div class="col-md-6 ">
+            
+
+            <table class="table table-dark">
+                <tr>
+                    <!-- <td><button onclick="startGame()">Start Game</button> </td> -->
+                    <td><button onclick="resetGame()">Reset</button> </td>
+                    <td id="Start Game"></td>
+                </tr>    
+                <tr>
+                    <td>Wins</td>
+                    <td id="totalWins"></td>
+                </tr>
+                <tr>
+                    <td>Current Word</td>
+                    <td id="currentWord"></td>
+                </tr>    
+                <tr>
+                    <td>Guesses Remaining</td>
+                    <td id="remainingGuesses"></td>
+                </tr>     
+                <tr>
+                    <td>Letters Guessed</td>
+                    <td id="guessedLetters"></td>
+                </tr>     
+                <tr>
+                    <td>Word</td>
+                    <td id="wordChose"></td>
+                </tr>                                                                  
+            </table>
+        </div>                
+    </div>   
+
+
+    <script src='../Hangman-Game/assets/javascript/game.js'></script>
+    </body>
+</html>
+
+
